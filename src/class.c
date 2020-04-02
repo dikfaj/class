@@ -87,7 +87,7 @@ VR_knn1(Sint *pntr, Sint *pnte, Sint *p, double *train, Sint *class,
 }
 
 
-#define MAX_TIES 1000
+#define MAX_TIES 10000000
 /* Not worth doing this dynamically -- limits k + # ties + fence, in fact */
 
 
